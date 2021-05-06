@@ -17,7 +17,7 @@ exports.createData = async(req, res) => {
 
 exports.getData = async(req, res) => {
   try {
-    const data = await Data.find();
+    const data = await Data.findById(req.params.id);
     
     res.status(200).json({
       message: "success",

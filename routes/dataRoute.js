@@ -5,11 +5,11 @@ const router = express.Router();
 
 router
   .route("/")
-  .post(createData)
-  .get(getData);
+  .post(createData);
   
 router
   .route("/:id")
+  .get(getData)
   .patch(updateData)
   .delete(deleteData);
   
