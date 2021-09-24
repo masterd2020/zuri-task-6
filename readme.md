@@ -18,7 +18,7 @@ Base url: `https://toheeb-zuri-task-6.herokuapp.com/data`
 
 |Method|url|Body|Parameters|Response|Status Code|
 |-|-|-|-|-|-|
-|GET|https://toheeb-zuri-task-6.herokuapp.com/data/id|null|id|{message: "success", data:{name: "Toheeb", email: "tohebayomide11@gmail.com", country: "Nigeria"}}|200(ok) / 400(bad request)|
+|`GET`|https://toheeb-zuri-task-6.herokuapp.com/data/id|null|id|{message: "success", data:{name: "Toheeb", email: "tohebayomide11@gmail.com", country: "Nigeria"}}|200(ok) / 400(bad request)|
 |POST|https://toheeb-zuri-task-6.herokuapp.com/data|{name: "Toheeb", email: "tohebayomide11@gmail.com", country: "Nigeria"}|null|{message: "success", data: {name: "Toheeb", email: "tohebayomide11@gmail.com", country: "Nigeria"}}|201(created) / 400(bad request)|
 |PATCH|https://toheeb-zuri-task-6.herokuapp.com/data/id|{name: "Fasasi"}|id|{message: "success", data: {name: "Fasasi", email: "tohebayomide11@gmail.com", country: "Nigeria"}}|200(ok) / 400(bad request)|
 |DELETE|https://toheeb-zuri-task-6.herokuapp.com/data/id|null|id|{message: "success", data: {name: "Fasasi", email: "tohebayomide11@gmail.com", country: "Nigeria"}}|204(ok) / 400(bad request)|
